@@ -23,25 +23,25 @@ Created with Node.js
 |`DELETE`|`/incidents/:id`|Delete a incidents.       |
 
 
-- HTTP methods
+#### HTTP methods
 
-  - GET: Fetching information from the back-end.
-  - POST: Create information on the back-end.
-  - PUT: Changing information on the back-end.
-  - DELETE: Delete an information on the back-end.
-
-
-- Parameter types
-
-  - Query Params: Named parameters sent on the route after the `?` (Filters, Pagination).
-  - Route Params: Parameters used to identify resources.
-  - Request Body: Request body, used to create or change resources.
+  - **GET:** _Fetching information from the back-end._
+  - **POST:** _Create information on the back-end._
+  - **PUT:** _Changing information on the back-end._
+  - **DELETE:** _Delete an information on the back-end._
 
 
-- Database
+#### Parameter types
 
-  - SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server.
-  - NoSQL: MongoDB, CouchDB, etc.
+  - **Query Params:** _Named parameters sent on the route after the `?` (Filters, Pagination)._
+  - **Route Params:** _Parameters used to identify resources._
+  - **Request Body:** _Request body, used to create or change resources._
 
-  - Driver: SELECT * FROM users.
-  - Query Builder: table('users').select('*').where().
+
+#### Database
+
+  - **SQL:** _MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server._
+  - **NoSQL:** _MongoDB, CouchDB, etc._
+
+  - **Driver:** _SELECT * FROM users._
+  - **Query Builder:** _table('users').select('*').where()._
