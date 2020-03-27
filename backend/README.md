@@ -8,7 +8,7 @@
 
 # Be The Hero (Back-end)
 
-Created with Node.js
+Created with Node.js.
 
 #### Routes / Resources
 
