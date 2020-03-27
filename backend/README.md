@@ -10,7 +10,7 @@
 
 Created with Node.js
 
-- Routes / Resources
+#### Routes / Resources
 
 |Method  |Endpoint        |Description               |
 |--------|----------------|--------------------------|
@@ -25,23 +25,23 @@ Created with Node.js
 
 #### HTTP methods
 
-  - **GET:** _Fetching information from the back-end._
-  - **POST:** _Create information on the back-end._
-  - **PUT:** _Changing information on the back-end._
-  - **DELETE:** _Delete an information on the back-end._
+- **GET:** _Fetching information from the back-end._
+- **POST:** _Create information on the back-end._
+- **PUT:** _Changing information on the back-end._
+- **DELETE:** _Delete an information on the back-end._
 
 
 #### Parameter types
 
-  - **Query Params:** _Named parameters sent on the route after the `?` (Filters, Pagination)._
-  - **Route Params:** _Parameters used to identify resources._
-  - **Request Body:** _Request body, used to create or change resources._
+- **Query Params:** _Named parameters sent on the route after the `?` (Filters, Pagination)._
+- **Route Params:** _Parameters used to identify resources._
+- **Request Body:** _Request body, used to create or change resources._
 
 
 #### Database
 
-  - **SQL:** _MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server._
-  - **NoSQL:** _MongoDB, CouchDB, etc._
+- **SQL:** _MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server._
+- **NoSQL:** _MongoDB, CouchDB, etc._
 
-  - **Driver:** _SELECT * FROM users._
-  - **Query Builder:** _table('users').select('*').where()._
+- **Driver:** _SELECT * FROM users._
+- **Query Builder:** _table('users').select('*').where()._
