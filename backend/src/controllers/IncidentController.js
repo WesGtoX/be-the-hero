@@ -33,7 +33,7 @@ module.exports = {
       description,
       value,
       ong_id
-    })
+    }).returning('id')
 
     return response.json({ id })
   },
