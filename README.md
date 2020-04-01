@@ -25,20 +25,17 @@ cd be-the-hero/
 
 - Run the API:
 ```bash
-# Access the API project folder:
-cd backend/
-
 # Install dependencies:
-npm install
+yarn install
 
 # Run database migrations:
 npx knex migrate:latest
 
 # Run the API:
-npm start
+yarn dev
 
 # To run the tests:
-npm test
+yarn test
 ```
 
 - Run the Web Application:
@@ -47,10 +44,10 @@ npm test
 cd frontend/
 
 # Install dependencies:
-npm install
+yarn install
 
 # Run the Web APP:
-npm start
+yarn start
 ```
 
 - Run the Mobile Application:
@@ -59,11 +56,51 @@ npm start
 cd mobile/
 
 # Install dependencies:
-npm install
+yarn install
 
 # Run the Mobile APP:
 yarn start
 ```
+
+
+## Documentation
+
+### Routes / Resources
+
+|Method  |Endpoint        |Description               |
+|--------|----------------|--------------------------|
+|`POST`  |`/sessions`     |ONG login.                |
+|`POST`  |`/ongs`         |Register a ONG.           |
+|`GET`   |`/ongs`         |List all ONGs.            |
+|`POST`  |`/incidents`    |Register a incidents.     |
+|`GET`   |`/incidents`    |List all incidents.       |
+|`GET`   |`/profile`      |List a specific incidents.|
+|`DELETE`|`/incidents/:id`|Delete a incidents.       |
+
+
+### HTTP methods
+
+- **GET:** _Fetching information from the back-end._
+- **POST:** _Create information on the back-end._
+- **PUT:** _Changing information on the back-end._
+- **DELETE:** _Delete an information on the back-end._
+
+
+### Parameter types
+
+- **Query Params:** _Named parameters sent on the route after the `?` (Filters, Pagination)._
+- **Route Params:** _Parameters used to identify resources._
+- **Request Body:** _Request body, used to create or change resources._
+
+
+### Database
+
+- **SQL:** _MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server._
+- **NoSQL:** _MongoDB, CouchDB, etc._
+
+- **Driver:** _SELECT * FROM users._
+- **Query Builder:** _table('users').select('*').where()._
+
 
 ## License ##
 
