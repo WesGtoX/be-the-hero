@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-url = process.env.BASE_URL || 'http://localhost:3333'
+url = process.env.BASE_URL || 'http://api.bethehero.wesleymends.com.br'
 
 const api = axios.create({
   baseURL: url

@@ -3,6 +3,11 @@
     <img src="frontend/src/assets/logo-be-the-hero.png" alt="Be The Hero" title="Be The Hero" width="250px">
   </a>
 </p>
+<p align="center">
+    <a href="https://app.netlify.com/sites/bethehero-wes/deploys" alt="Netlify Status">
+        <img src="https://api.netlify.com/api/v1/badges/0f800fdc-5a62-4f73-ba6b-b150b929e209/deploy-status" />
+    </a>
+</p>
 
 -----------------
 
