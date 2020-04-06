@@ -1,9 +1,8 @@
 import axios from 'axios'
 
-url = process.env.BASE_URL || 'http://api.bethehero.wesleymends.com.br'
 
 const api = axios.create({
-  baseURL: url
+  baseURL: 'http://api.bethehero.wesleymends.com.br'
 })
 
 export default api
