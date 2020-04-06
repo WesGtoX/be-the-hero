@@ -5,8 +5,10 @@ const routes = require('./routes')
 
 const app = express()
 
-domain = process.env.WHITELIST_DOMAIN
-subDomain = process.env.WHITELIST_SUB_DOMAIN
+// domain = process.env.WHITELIST_DOMAIN
+// subDomain = process.env.WHITELIST_SUB_DOMAIN
+
+// corsOrigin = { origin: 'https://bethehero.wesleymends.com.br' }
 
 // const whitelist = [domain, subDomain]
 // const corsOptions = {
@@ -20,7 +22,8 @@ subDomain = process.env.WHITELIST_SUB_DOMAIN
 // }
 
 // app.use(cors(corsOptions))
-app.use(cors({ origin: 'https://bethehero.wesleymends.com.br' }))
+// app.use(cors(corsOrigin))
+app.use(cors())
 app.use(express.json())
 app.use(routes)
 app.use(errors())
