@@ -37,7 +37,13 @@ export default function Incidents() {
     })
 
     setIncidents([...incidents, ...response.data])
-    setTotal(response.headers['x-total-count'])
+
+    if (total && total != 0) {
+      setTotal(response.headers['x-total-count'])
+    } else {
+      setTotal(0)
+    }
+    
     setPage(page + 1)
     setLoading(false)
   }

@@ -4,6 +4,7 @@
     "slug": "bethehero",
     "privacy": "public",
     "sdkVersion": "36.0.0",
+    "githubUrl": "https://github.com/WesGtoX/be-the-hero",
     "platforms": [
       "ios",
       "android",
@@ -24,7 +25,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wesleymendes.bethehero"
+    },
+    "android": {
+      "package": "com.wesleymendes.bethehero",
+      "versionCode": 1
     }
   }
 }
