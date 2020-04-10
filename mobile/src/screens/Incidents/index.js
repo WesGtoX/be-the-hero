@@ -38,12 +38,12 @@ export default function Incidents() {
 
     setIncidents([...incidents, ...response.data])
 
-    if (total && total != 0) {
+    if (response.headers['x-total-count'] != 'undefined') {
       setTotal(response.headers['x-total-count'])
     } else {
       setTotal(0)
     }
-    
+
     setPage(page + 1)
     setLoading(false)
   }
@@ -57,9 +57,14 @@ export default function Incidents() {
     <View style={styles.container}>
       <View style={styles.header}>
         <Image source={logoImg} />
-        <Text style={styles.headerText}>
-          Total de <Text style={styles.headerTextBold}>{ total } casos</Text>.
-        </Text>
+        { total == 1 ?
+          <Text style={styles.headerText}>
+            Total de <Text style={styles.headerTextBold}>{ total } caso</Text>.
+          </Text>
+          : <Text style={styles.headerText}>
+            Total de <Text style={styles.headerTextBold}>{ total } casos</Text>.
+          </Text>
+        }
       </View>
       <Text style={styles.title}>Bem vindo!</Text>
       <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia</Text>
