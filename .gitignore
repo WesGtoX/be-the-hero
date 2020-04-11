@@ -116,5 +116,6 @@ tmp/
 temp/
 
 *.sqlite
+APK/
 
 # End of https://www.gitignore.io/api/node,database
