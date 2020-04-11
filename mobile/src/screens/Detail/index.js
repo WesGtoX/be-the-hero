@@ -28,7 +28,7 @@ export default function Detail() {
   }
 
   function sendWatsApp() {
-    Linking.openURL(`whatsapp://send?phone=${incident.watsapp}&text=${message}`)
+    Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}&text=${message}`)
   }
 
   return (
