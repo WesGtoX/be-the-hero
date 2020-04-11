@@ -36,7 +36,6 @@ def populate_data(url=None, payload=None, querystring=None, token=None):
 
 if __name__ == '__main__':
     _url = 'http://localhost:3333'
-    # _url = 'https://be-the-hero-wes.herokuapp.com'
 
     token_list = []
     for ong in load_data(filename='ongs.json'):
