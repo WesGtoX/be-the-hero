@@ -18,6 +18,23 @@ Building using Node.js, React and React Native.
 Author: [Wesley Mendes](https://github.com/WesGtoX)
 
 
+## Mobile
+
+[Be The Hero on Expo](https://expo.io/@wesgtox/bethehero)
+
+<p align="center">
+  <a href="https://expo.io/@wesgtox/bethehero">
+    <img src="mobile/screenshots/screenshot_01.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
+  </a>
+    <a href="https://expo.io/@wesgtox/bethehero">
+    <img src="mobile/screenshots/screenshot_02.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
+  </a>
+    <a href="https://expo.io/@wesgtox/bethehero">
+    <img src="mobile/screenshots/screenshot_03.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
+  </a>
+</p>
+
+
 ## Running the application:
 
 To run this application locally, you'll need to:
@@ -120,28 +137,6 @@ expo start
 
 - **Driver:** _SELECT * FROM users._
 - **Query Builder:** _table('users').select('*').where()._
-
-
-## Mobile Example
-
-[Be The Hero on Expo](https://expo.io/@wesgtox/bethehero)
-
-<p align="center">
-  <a href="https://expo.io/@wesgtox/bethehero">
-    <img src="mobile/screenshots/*.png" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
-  </a>
-</p>
-<p align="center">
-  <a href="https://expo.io/@wesgtox/bethehero">
-    <img src="mobile/screenshots/screenshot_01.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
-  </a>
-    <a href="https://expo.io/@wesgtox/bethehero">
-    <img src="mobile/screenshots/screenshot_02.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
-  </a>
-    <a href="https://expo.io/@wesgtox/bethehero">
-    <img src="mobile/screenshots/screenshot_03.jpg" alt="Be The Hero Mobile" title="Be The Hero Mobile" width="250px">
-  </a>
-</p>
 
 
 ## License ##
