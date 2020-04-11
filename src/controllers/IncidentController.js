@@ -6,6 +6,8 @@ module.exports = {
 
     const [count] = await connection('incidents').count()
 
+    const countNumber = process.env.NODE_ENV === 'production' ? count['count'] : count['count(*)']
+
     const incidents = await connection('incidents')
       .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
       .limit(5)
@@ -19,7 +21,7 @@ module.exports = {
         'ongs.uf'
       ])
 
-    response.header('X-Total-Count', count['count(*)'])
+    response.header('X-Total-Count', countNumber)
 
     return response.json(incidents)
   },
