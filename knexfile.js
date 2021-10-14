@@ -39,6 +39,7 @@ module.exports = {
     migrations: {
       directory: './src/database/migrations'
     },
-    pool: { min: 0, max: 2 }
+    pool: { min: 0, max: 2 },
+    ssl: { rejectUnauthorized: false }
   }
 }
